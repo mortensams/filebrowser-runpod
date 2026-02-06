@@ -1,0 +1,5 @@
+workspace/
+*.db
+.cache/
+*.log
+.DS_Store
