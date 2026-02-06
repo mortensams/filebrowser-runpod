@@ -6,6 +6,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Install minimal dependencies
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
+    bash \
     wget \
     ca-certificates \
     openssl \
